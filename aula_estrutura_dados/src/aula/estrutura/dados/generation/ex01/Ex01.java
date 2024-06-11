@@ -19,6 +19,7 @@ public class Ex01 {
                 --------------------------------------
                 """);
         String data = sc.nextLine();
+        sc.skip("\\R?");
 
         while (!data.equals("0")) {
             if (data.equals("1")) {
